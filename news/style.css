@@ -1,0 +1,43 @@
+@media (max-width: 480px) {
+    .marquee-caption { margin: 0.75rem 1rem 1.5rem; font-size: 0.95rem; }
+}
+body.newspaper {
+            background: #f4efe2;
+            color: #111;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            padding: 24px;
+        }
+        .paper {
+            max-width: 920px;
+            margin: 20px auto;
+            background: linear-gradient(#f7f3ea, #f4efe2);
+            padding: 28px 36px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+            border: 1px solid rgba(0,0,0,0.06);
+        }
+        h1 {
+            font-size: 44px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin: 0.2em 0 0.35em 0;
+            text-align: center;
+            font-weight: 700;
+        }
+        h2 {
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0.1em 0 0.6em 0;
+        }
+        h3 {
+            font-size: 18px;
+            margin: 0.6em 0 0.4em 0;
+        }
+        p { font-size: 15px; color: #222; text-align: justify; margin: 0.5em 0; }
+        .article { column-count: 2; column-gap: 34px; }
+        img { display: block; max-width: 100%; height: auto; margin: 10px auto; filter: grayscale(60%) contrast(1.05) sepia(0.08); border: 1px solid #d6d0c4; background:#fff; padding:6px; }
+        .dropcap:first-letter { float:left; font-size:3.6rem; line-height:0.7; padding-right:10px; font-weight:700; color:#111; }
+        .byline, .footer { font-size:12px; color:#555; text-align:center; margin-top:14px; }
+        @media (max-width:720px){ .article{column-count:1;} h1{font-size:32px;} }
